@@ -5,4 +5,13 @@
            <lightning-input label="Name" value={greeting} onchange={changeHandler} placeholder="Enter Name"></lightning-input>
         </div>
     </lightning-card>
+    <br>
+    <lightning-card  title="Info">
+        <lightning-button label="Enter" slot="actions" onclick={changeEvent}></lightning-button>
+        <div class="slds-p-horizontal_small">
+            <p>{temp}</p>
+            <lightning-input class="inputCmp" label="Name"></lightning-input>
+        </div>
+    </lightning-card>
+
 </template>
